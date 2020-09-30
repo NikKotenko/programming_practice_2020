@@ -1,3 +1,3 @@
-text = raw_input()
+text = input()
 n = int(input())
-print('Hello,', (text+', ')*n)
+print('Hello,', (text+', ')*(n-1)+text)
